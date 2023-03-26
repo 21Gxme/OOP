@@ -44,4 +44,3 @@ class Banana(Container):
     @property
     def volume(self):
         return float((4/3)*math.pi*self.__length*self.__radius**2)
-

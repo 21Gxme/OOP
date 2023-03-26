@@ -6,6 +6,7 @@ class Line:
         self.yintercept = y1 - self.slope * x1
 
     def contains(self, x, y):
+
         return min(self.start_point.get_x(), self.end_point.get_x()) <= x <= max(self.start_point.get_x(), self.end_point.get_x()) and min(self.start_point.get_y(), self.end_point.get_y()) <= y <= max(self.start_point.get_y(), self.end_point.get_y())
 
     def get_distance(self):
